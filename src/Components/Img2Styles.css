@@ -1,0 +1,43 @@
+.img-2{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    height: 60vh;
+    position: relative;
+}
+
+.img-2::before{
+    content: "";
+    background: url("https://img.freepik.com/free-photo/ it-specialist- checking-code-computer-dark-office-night_1098-18699.jpg?w=900&t=st=1669427019~exp=1669427619~hmac=a3a46f7fd35d53ada4debe3220855bdb766a831b649d3c33938e360b3f2ec304");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-2 h1{
+    font-size: 2.4rem;
+}
+
+.img-2 p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .img-2 h1{
+        font-size: 2rem;
+    }
+}
