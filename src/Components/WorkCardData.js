@@ -1,6 +1,6 @@
 import pro1 from "../assets/bg-pro1.png"
 import pro2 from "../assets/bg-pro2.jpg"
-import pro3 from "../assets/bg-pro3.png"
+import pro3 from "../assets/bg-pro3.jpg"
 
 const ProjectCardData =[ {
     imgsrc : pro1,
@@ -15,7 +15,7 @@ const ProjectCardData =[ {
     {
         imgsrc : pro3,
         title : "POS Website Design",
-        text : "A POS system allows your business to accept payments from customers and keep track of sales. It sounds simple enough, but the setup can work in different ways, depending on whether you sell online, have a physical storefront, or both."
+        text : "A POS system allows your business to accept payments from customers and keep track of sales. It sounds simple enough, but the setup can work in different ways, depending on whether you sell online, have a physical storefront, or both.It sounds simple enough, but the setup can work in different ways, depending on whether you sell online, have a physical storefront, or both."
     },
 ]
 

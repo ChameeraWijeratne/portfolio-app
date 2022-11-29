@@ -7,7 +7,7 @@
 
 .img-2::before{
     content: "";
-    background: url("https://img.freepik.com/free-photo/ it-specialist- checking-code-computer-dark-office-night_1098-18699.jpg?w=900&t=st=1669427019~exp=1669427619~hmac=a3a46f7fd35d53ada4debe3220855bdb766a831b649d3c33938e360b3f2ec304");
+    background: url("../assets/bg-pro-2.jpeg");
     background-size: cover;
     background-position: center top;
     height: 100%;
